@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33604B181C43636000AD978E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33604B171C43636000AD978E /* main.m */; };
+		33604B1B1C43636000AD978E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33604B1A1C43636000AD978E /* AppDelegate.m */; };
+		33604B1E1C43636000AD978E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33604B1D1C43636000AD978E /* ViewController.m */; };
+		33604B211C43636000AD978E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33604B1F1C43636000AD978E /* Main.storyboard */; };
+		33604B231C43636000AD978E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33604B221C43636000AD978E /* Assets.xcassets */; };
+		33604B261C43636000AD978E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33604B241C43636000AD978E /* LaunchScreen.storyboard */; };
+		33604B311C43636000AD978E /* Facebook_Pop__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33604B301C43636000AD978E /* Facebook_Pop__Tests.m */; };
+		33604B3C1C43636000AD978E /* Facebook_Pop__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33604B3B1C43636000AD978E /* Facebook_Pop__UITests.m */; };
+		E1C628DD9BEA276287385B59 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD5D5E48A04295FF0F86193 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33604B2D1C43636000AD978E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33604B0B1C43636000AD978E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33604B121C43636000AD978E;
+			remoteInfo = "Facebook_Pop动画";
+		};
+		33604B381C43636000AD978E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33604B0B1C43636000AD978E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33604B121C43636000AD978E;
+			remoteInfo = "Facebook_Pop动画";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33604B131C43636000AD978E /* Facebook_Pop动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Facebook_Pop动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33604B171C43636000AD978E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33604B191C43636000AD978E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33604B1A1C43636000AD978E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33604B1C1C43636000AD978E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		33604B1D1C43636000AD978E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33604B201C43636000AD978E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33604B221C43636000AD978E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33604B251C43636000AD978E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33604B271C43636000AD978E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33604B2C1C43636000AD978E /* Facebook_Pop动画Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Facebook_Pop动画Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33604B301C43636000AD978E /* Facebook_Pop__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Facebook_Pop__Tests.m; sourceTree = "<group>"; };
+		33604B321C43636000AD978E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33604B371C43636000AD978E /* Facebook_Pop动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Facebook_Pop动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33604B3B1C43636000AD978E /* Facebook_Pop__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Facebook_Pop__UITests.m; sourceTree = "<group>"; };
+		33604B3D1C43636000AD978E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48FB415D7AD67322576AB107 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E6633588E9F9174E48CC4E7F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		FAD5D5E48A04295FF0F86193 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33604B101C43636000AD978E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C628DD9BEA276287385B59 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33604B291C43636000AD978E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33604B341C43636000AD978E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33604B0A1C43636000AD978E = {
+			isa = PBXGroup;
+			children = (
+				33604B151C43636000AD978E /* Facebook_Pop动画 */,
+				33604B2F1C43636000AD978E /* Facebook_Pop动画Tests */,
+				33604B3A1C43636000AD978E /* Facebook_Pop动画UITests */,
+				33604B141C43636000AD978E /* Products */,
+				70FF152A46AD6C8E63EE11BB /* Pods */,
+				526277B1F159A6746CA0DC89 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		33604B141C43636000AD978E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33604B131C43636000AD978E /* Facebook_Pop动画.app */,
+				33604B2C1C43636000AD978E /* Facebook_Pop动画Tests.xctest */,
+				33604B371C43636000AD978E /* Facebook_Pop动画UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33604B151C43636000AD978E /* Facebook_Pop动画 */ = {
+			isa = PBXGroup;
+			children = (
+				33604B191C43636000AD978E /* AppDelegate.h */,
+				33604B1A1C43636000AD978E /* AppDelegate.m */,
+				33604B1C1C43636000AD978E /* ViewController.h */,
+				33604B1D1C43636000AD978E /* ViewController.m */,
+				33604B1F1C43636000AD978E /* Main.storyboard */,
+				33604B221C43636000AD978E /* Assets.xcassets */,
+				33604B241C43636000AD978E /* LaunchScreen.storyboard */,
+				33604B271C43636000AD978E /* Info.plist */,
+				33604B161C43636000AD978E /* Supporting Files */,
+			);
+			path = "Facebook_Pop动画";
+			sourceTree = "<group>";
+		};
+		33604B161C43636000AD978E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33604B171C43636000AD978E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33604B2F1C43636000AD978E /* Facebook_Pop动画Tests */ = {
+			isa = PBXGroup;
+			children = (
+				33604B301C43636000AD978E /* Facebook_Pop__Tests.m */,
+				33604B321C43636000AD978E /* Info.plist */,
+			);
+			path = "Facebook_Pop动画Tests";
+			sourceTree = "<group>";
+		};
+		33604B3A1C43636000AD978E /* Facebook_Pop动画UITests */ = {
+			isa = PBXGroup;
+			children = (
+				33604B3B1C43636000AD978E /* Facebook_Pop__UITests.m */,
+				33604B3D1C43636000AD978E /* Info.plist */,
+			);
+			path = "Facebook_Pop动画UITests";
+			sourceTree = "<group>";
+		};
+		526277B1F159A6746CA0DC89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAD5D5E48A04295FF0F86193 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70FF152A46AD6C8E63EE11BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48FB415D7AD67322576AB107 /* Pods.debug.xcconfig */,
+				E6633588E9F9174E48CC4E7F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33604B121C43636000AD978E /* Facebook_Pop动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33604B401C43636000AD978E /* Build configuration list for PBXNativeTarget "Facebook_Pop动画" */;
+			buildPhases = (
+				EDF52BBC6F12964F67529864 /* Check Pods Manifest.lock */,
+				33604B0F1C43636000AD978E /* Sources */,
+				33604B101C43636000AD978E /* Frameworks */,
+				33604B111C43636000AD978E /* Resources */,
+				E1F2D1E2009392B23A26C929 /* Embed Pods Frameworks */,
+				4F128676F6A105338408DB4E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Facebook_Pop动画";
+			productName = "Facebook_Pop动画";
+			productReference = 33604B131C43636000AD978E /* Facebook_Pop动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33604B2B1C43636000AD978E /* Facebook_Pop动画Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33604B431C43636000AD978E /* Build configuration list for PBXNativeTarget "Facebook_Pop动画Tests" */;
+			buildPhases = (
+				33604B281C43636000AD978E /* Sources */,
+				33604B291C43636000AD978E /* Frameworks */,
+				33604B2A1C43636000AD978E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33604B2E1C43636000AD978E /* PBXTargetDependency */,
+			);
+			name = "Facebook_Pop动画Tests";
+			productName = "Facebook_Pop动画Tests";
+			productReference = 33604B2C1C43636000AD978E /* Facebook_Pop动画Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33604B361C43636000AD978E /* Facebook_Pop动画UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33604B461C43636000AD978E /* Build configuration list for PBXNativeTarget "Facebook_Pop动画UITests" */;
+			buildPhases = (
+				33604B331C43636000AD978E /* Sources */,
+				33604B341C43636000AD978E /* Frameworks */,
+				33604B351C43636000AD978E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33604B391C43636000AD978E /* PBXTargetDependency */,
+			);
+			name = "Facebook_Pop动画UITests";
+			productName = "Facebook_Pop动画UITests";
+			productReference = 33604B371C43636000AD978E /* Facebook_Pop动画UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33604B0B1C43636000AD978E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Charles_Wl;
+				TargetAttributes = {
+					33604B121C43636000AD978E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					33604B2B1C43636000AD978E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 33604B121C43636000AD978E;
+					};
+					33604B361C43636000AD978E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 33604B121C43636000AD978E;
+					};
+				};
+			};
+			buildConfigurationList = 33604B0E1C43636000AD978E /* Build configuration list for PBXProject "Facebook_Pop动画" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33604B0A1C43636000AD978E;
+			productRefGroup = 33604B141C43636000AD978E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33604B121C43636000AD978E /* Facebook_Pop动画 */,
+				33604B2B1C43636000AD978E /* Facebook_Pop动画Tests */,
+				33604B361C43636000AD978E /* Facebook_Pop动画UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33604B111C43636000AD978E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33604B261C43636000AD978E /* LaunchScreen.storyboard in Resources */,
+				33604B231C43636000AD978E /* Assets.xcassets in Resources */,
+				33604B211C43636000AD978E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33604B2A1C43636000AD978E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33604B351C43636000AD978E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F128676F6A105338408DB4E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1F2D1E2009392B23A26C929 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDF52BBC6F12964F67529864 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33604B0F1C43636000AD978E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33604B1E1C43636000AD978E /* ViewController.m in Sources */,
+				33604B1B1C43636000AD978E /* AppDelegate.m in Sources */,
+				33604B181C43636000AD978E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33604B281C43636000AD978E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33604B311C43636000AD978E /* Facebook_Pop__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33604B331C43636000AD978E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33604B3C1C43636000AD978E /* Facebook_Pop__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33604B2E1C43636000AD978E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33604B121C43636000AD978E /* Facebook_Pop动画 */;
+			targetProxy = 33604B2D1C43636000AD978E /* PBXContainerItemProxy */;
+		};
+		33604B391C43636000AD978E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33604B121C43636000AD978E /* Facebook_Pop动画 */;
+			targetProxy = 33604B381C43636000AD978E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33604B1F1C43636000AD978E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33604B201C43636000AD978E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33604B241C43636000AD978E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33604B251C43636000AD978E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33604B3E1C43636000AD978E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33604B3F1C43636000AD978E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33604B411C43636000AD978E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48FB415D7AD67322576AB107 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Facebook_Pop动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charleswl.www.Facebook-Pop--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33604B421C43636000AD978E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6633588E9F9174E48CC4E7F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Facebook_Pop动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charleswl.www.Facebook-Pop--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33604B441C43636000AD978E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Facebook_Pop动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charleswl.www.Facebook-Pop--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Facebook_Pop动画.app/Facebook_Pop动画";
+			};
+			name = Debug;
+		};
+		33604B451C43636000AD978E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Facebook_Pop动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charleswl.www.Facebook-Pop--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Facebook_Pop动画.app/Facebook_Pop动画";
+			};
+			name = Release;
+		};
+		33604B471C43636000AD978E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Facebook_Pop动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charleswl.www.Facebook-Pop--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Facebook_Pop动画";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		33604B481C43636000AD978E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Facebook_Pop动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charleswl.www.Facebook-Pop--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Facebook_Pop动画";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33604B0E1C43636000AD978E /* Build configuration list for PBXProject "Facebook_Pop动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33604B3E1C43636000AD978E /* Debug */,
+				33604B3F1C43636000AD978E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33604B401C43636000AD978E /* Build configuration list for PBXNativeTarget "Facebook_Pop动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33604B411C43636000AD978E /* Debug */,
+				33604B421C43636000AD978E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33604B431C43636000AD978E /* Build configuration list for PBXNativeTarget "Facebook_Pop动画Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33604B441C43636000AD978E /* Debug */,
+				33604B451C43636000AD978E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33604B461C43636000AD978E /* Build configuration list for PBXNativeTarget "Facebook_Pop动画UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33604B471C43636000AD978E /* Debug */,
+				33604B481C43636000AD978E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33604B0B1C43636000AD978E /* Project object */;
+}
